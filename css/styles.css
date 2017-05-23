@@ -27,23 +27,44 @@ a:hover {
 	color: #4d525a;
 }
 
-.image {
-	height: 500px;
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+	padding: 100px 100px;
 }
 
-html{
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 200px; 
+  left: -25%; 
+  right: -25%; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
 
+/*
+html {
 background: url(../images/home_background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	background-image: opacity 80%;
 }
 
-/*
-body {
-	background-image: url(../images/home_background.jpg) no-repeat center center fixed;
-	background-size: cover;
-}
+
+
+
 /*https://www.stollerfamilyestate.com, see for ideas*/
