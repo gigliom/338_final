@@ -36,7 +36,7 @@ a.button {
     color: initial;
 	padding: 100px 100px;
 }
-
+/* background image fills entire page 
 #bg {
   position: fixed; 
   top: -50%; 
@@ -46,7 +46,7 @@ a.button {
 }
 #bg img {
   position: absolute; 
-  top: 200px; 
+  top: 150px; 
   left: -25%; 
   right: -25%; 
   bottom: 0; 
@@ -54,7 +54,7 @@ a.button {
   min-width: 50%;
   min-height: 50%;
 }
-
+*/
 /*
 html {
 background: url(../images/home_background.jpg) no-repeat center center fixed; 
