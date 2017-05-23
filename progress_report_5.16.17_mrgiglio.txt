@@ -1,0 +1,157 @@
+Last login: Tue May 16 11:55:14 on console
+grc-denmark:~ mrgiglio$ git init
+Initialized empty Git repository in /Users/mrgiglio/.git/
+grc-denmark:~ mrgiglio$ git remote add origin https://github.com/gigliom/338_final.git
+grc-denmark:~ mrgiglio$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/gigliom/338_final.git'
+grc-denmark:~ mrgiglio$ cd desktop
+grc-denmark:desktop mrgiglio$ cd 338_final_mrgiglio
+grc-denmark:338_final_mrgiglio mrgiglio$ git init
+Initialized empty Git repository in /Users/mrgiglio/Desktop/338_final_mrgiglio/.git/
+grc-denmark:338_final_mrgiglio mrgiglio$ git remote add origin https://github.com/gigliom/338_final.git
+grc-denmark:338_final_mrgiglio mrgiglio$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/gigliom/338_final.git'
+grc-denmark:338_final_mrgiglio mrgiglio$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/gigliom/338_final.git'
+grc-denmark:338_final_mrgiglio mrgiglio$ git remote add origin https://github.com/gigliom/338_final.git
+fatal: remote origin already exists.
+grc-denmark:338_final_mrgiglio mrgiglio$ git add -A
+grc-denmark:338_final_mrgiglio mrgiglio$ git remote add origin https://github.com/gigliom/338_final.git
+fatal: remote origin already exists.
+grc-denmark:338_final_mrgiglio mrgiglio$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/gigliom/338_final.git'
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit -m  "create repository"
+[master (root-commit) 681108e] create repository
+ 3 files changed, 13 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 index.html
+ create mode 100644 styles.css
+grc-denmark:338_final_mrgiglio mrgiglio$ git push -u origin master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 611 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/gigliom/338_final.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit -m "nav bar basics done"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   .DS_Store
+	modified:   index.html
+	deleted:    styles.css
+
+Untracked files:
+	css/
+
+no changes added to commit
+grc-denmark:338_final_mrgiglio mrgiglio$ git -A
+Unknown option: -A
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit -am "double checking"
+[master c185ddf] double checking
+ 3 files changed, 20 insertions(+), 4 deletions(-)
+ delete mode 100644 styles.css
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit -am "footer started"
+[master 511c607] footer started
+ 1 file changed, 14 insertions(+)
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit -am "comments"
+[master b08628b] comments
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+grc-denmark:338_final_mrgiglio mrgiglio$ git push
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.58 KiB | 0 bytes/s, done.
+Total 10 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/gigliom/338_final.git
+   681108e..b08628b  master -> master
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit -am "5/16/17"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	css/
+	images/
+
+nothing added to commit but untracked files present
+grc-denmark:338_final_mrgiglio mrgiglio$ git -A
+Unknown option: -A
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit "add images"
+error: pathspec 'add images' did not match any file(s) known to git.
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit -m "add images?"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	css/
+	images/
+
+nothing added to commit but untracked files present
+grc-denmark:338_final_mrgiglio mrgiglio$ git add -A
+grc-denmark:338_final_mrgiglio mrgiglio$ git -am "add image?"
+Unknown option: -am
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+grc-denmark:338_final_mrgiglio mrgiglio$ git commit -m "images sos"
+[master 87960ad] images sos
+ 3 files changed, 37 insertions(+)
+ create mode 100644 css/.DS_Store
+ create mode 100644 css/styles.css
+ create mode 100644 images/wine-index.jpg
+grc-denmark:338_final_mrgiglio mrgiglio$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 56.67 KiB | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/gigliom/338_final.git
+   b08628b..87960ad  master -> master
+grc-denmark:338_final_mrgiglio mrgiglio$ git log
+commit 87960ad27c4904309cb49e2f7aba582291b7bc5e
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 16 14:57:26 2017 -0700
+
+    images sos
+
+commit b08628b7244157bc84d5e4849870e05713b7f005
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 16 14:56:01 2017 -0700
+
+    comments
+
+commit 511c607567fc605790c70ac9fd58851a9246bddd
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 16 14:53:24 2017 -0700
+
+    footer started
+
+commit c185ddf12ce4ce8a6adb1047e48c26d637217a5a
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 16 14:26:43 2017 -0700
+
+    double checking
+
+commit 681108e706e5c07a247fe8591cac8087a64cee33
+Author: Maddy Giglio <madelyngiglio@yahoo.com>
+Date:   Tue May 16 13:18:33 2017 -0700
+
+    create repository
+grc-denmark:338_final_mrgiglio mrgiglio$ 
