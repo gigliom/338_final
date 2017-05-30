@@ -7,6 +7,8 @@ nav {
 	height: 75px;
 }
 
+body .galleria-container {background-color: #EBEBEB;}
+
 ul{
 	list-style-type: none;
 }
