@@ -1,14 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-foot p{
-	color: white;
-	line-height: .8em;
-	padding-left: 15px;
-	margin-left: 15px;
-	text-align: right;
-}
-
+/*body text*/
 p {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #4d525a;
@@ -26,7 +19,7 @@ h1{
 	font-size: 2.5em;
 	font-weight: 200;
 }
-
+/*formats the nav bar*/
 nav {
 	background-color: white;
 	width: 100%;
@@ -35,19 +28,24 @@ nav {
 	font-size: 1.25em;
 }
 
-body .galleria-container {background-color: rgba(201,204,209,0.89)}
-
 ul{
 	list-style-type: none;
 }
 
 li {
 	font-family: 'Source Sans Pro', sans-serif;
+	text-align: right;
 	float: left;
 	padding-left: 20px;
 	display: block;
 	background-color: white;
 }
+
+/*end formatting for the nav bar*/
+/*formats the image gallery for the about us page*/
+body .galleria-container {background-color: rgba(201,204,209,0.89)}
+
+
 
 a:link {
 	text-decoration: none;
@@ -67,41 +65,67 @@ a.button {
     color: initial;
 	padding: 100px 100px;
 }
-
+/*clears float for the grids*/
 .bottomclear {
 	
 	clear: both;
+	padding-bottom: 20px;
+	margin-right: 50px;
 }
 
-.center {
-	display: block;
-	margin: 0 auto;
-}
 
+/*begin css for fontawesome icons*/
+/*changes size and color of the div*/
 .socialmedia {
-	height: 30px;
-	font-size: 1em;
+	height: 10px;
 	background-color: #e5173f;
 }
-
+/*adds padding, color and size to the icons*/
 .fa {
-	color: #4d525a;
+	background-color: #e5173f;
+	color: white;
+	font-size: 5em;
+	padding-bottom: 20px;
+	margin-top: -4px;
+	float: right;
+}
+
+/*css for fontawesome icons end*/
+
+/*css for the footer*/
+/* text in the footer element
+*/foot p{
+	color: white;
+	line-height: .8em;
+	padding-right: 15px;
+	margin-right: 15px;
 	text-align: right;
+}
+/*hover and link overrules the previous link css so that we can read it*/
+a.foot:hover{
+	color: white;
+}
+
+a.foot:link {
+	color: white;
 }
 
 foot img{
 	float: left;
 	padding: 5px 5px;
+	margin-left: 10px;
 }
-
+/*applies the background color and padding to the footer element*/
 .bottomdiv {
 	height: 60px;
 	font-size: .85em;
-	padding:5px 5px;
+	padding: 10px 5px;
 	display: block;
 	background-color: #e5173f;
 	float: left;
 }
+
+/*end css for footer*/
 /* background image fills entire page 
 #bg {
   position: fixed; 
