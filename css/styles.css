@@ -89,7 +89,7 @@ a:visited{
 	line-height: 50px;
 }
 
-.socialmeda img {
+.socialmedia img {
 	
 	float: left;
 	
@@ -98,10 +98,13 @@ a:visited{
 
 /*adds padding, color and size to the icons*/
 /*Pulls icons to the left*/
-
+.socialdiv {
+	margin-top: -10px;
+	margin-left: 70px;
+}
 
 .fa a {
-	background-color: white;
+	/*background-color: white;*/
 	color: #4d525a;
 	padding-top: 10px;
 	font-size: 1.25em;
@@ -110,8 +113,7 @@ a:visited{
 }
 
 i {
-	padding-right: 15px;
-	padding-left: -10px;
+	padding-right: 5px;
 }
 
 /*css for fontawesome icons end*/
