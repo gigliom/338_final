@@ -26,7 +26,7 @@ nav {
 	height: 30px;
 	font-size: 1em;
 	font-weight: 400;
-	text-align: center;
+	text-align: right;
 }
 
 nav ul{
@@ -58,6 +58,7 @@ a:hover {
 
 a:visited{
 	text-decoration: none;
+	color: #4d525a;
 }
 
 /*a.button {
@@ -85,15 +86,16 @@ a:visited{
 	height: 90px;
 	background-color: white;
 	text-align: right;
-	line-height: 145px;
+	line-height: 50px;
 }
 
 .socialmeda img {
 	
 	float: left;
-	height: 60px;
+	height: 10px;
 	
 }
+
 /*adds padding, color and size to the icons*/
 /*Pulls icons to the left*/
 
@@ -102,12 +104,14 @@ a:visited{
 	background-color: white;
 	color: #4d525a;
 	padding-top: 10px;
-	font-size: 1.5em;
+	font-size: 1.25em;
+	text-align: right;
 	display: inline-block;	
 }
 
 i {
-	padding-left: 10px;
+	padding-right: 15px;
+	padding-left: -10px;
 }
 
 /*css for fontawesome icons end*/
