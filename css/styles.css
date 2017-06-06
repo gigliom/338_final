@@ -21,22 +21,22 @@ h1{
 }
 /*formats the nav bar*/
 nav {
-	background-color: #757D89;
+	background-color: white;
 	width: 100%;
 	height: 30px;
 	font-size: 1em;
-	font-weight: 200;
+	font-weight: 400;
 	text-align: center;
 }
 
-ul{
+nav ul{
 	list-style-type: none;
 	margin: 0px;
 }
 
-li {
+nav li {
 	font-family: 'Source Sans Pro', sans-serif;
-	padding:0px 20px;
+	padding:0px 5px;
 	display: inline-block;
 	line-height: 30px;
 }
@@ -49,14 +49,18 @@ body .galleria-container {background-color: rgba(201,204,209,0.89)}
 
 a:link {
 	text-decoration: none;
-	color: white;
+	color: #4d525a;
 }
 
 a:hover {
 	color: #e5173f;
 }
 
-a.button {
+a:visited{
+	text-decoration: none;
+}
+
+/*a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -64,7 +68,7 @@ a.button {
     text-decoration: none;
     color: initial;
 	padding: 100px 100px;
-}
+}*/
 /*clears float for the grids*/
 .bottomclear {
 	
@@ -77,19 +81,29 @@ a.button {
 /*begin css for fontawesome icons*/
 /*changes size and color of the div*/
 .socialmedia {
-	height: 50px;
+	width: 100%;
+	height: 90px;
 	background-color: white;
+	text-align: right;
+	line-height: 145px;
+}
+
+.socialmeda img {
+	
+	float: left;
+	height: 60px;
+	
 }
 /*adds padding, color and size to the icons*/
+/*Pulls icons to the left*/
+
+
 .fa a {
 	background-color: white;
-	color: #e5173f;
-	font-size: 2em;
-	padding-bottom: 20px;
-	margin-top: -4px;
-	display: inline-block;
-	text-align: right;
-	line-height: 20px;
+	color: #4d525a;
+	padding-top: 10px;
+	font-size: 1.5em;
+	display: inline-block;	
 }
 
 i {
