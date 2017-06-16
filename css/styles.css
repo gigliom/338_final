@@ -15,6 +15,10 @@ h1{
 	font-weight: 600;
 }
 
+.marginh1wine {
+	margin-top: -10px;
+}
+
 h2{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #4d525a;
@@ -40,6 +44,21 @@ h4{
 	font-weight: 200;
 	text-align: left;
 }
+
+#titlev {
+	font-size: 2.5em;
+	font-weight: 200;
+	text-align: left;
+	margin-top: -5px;
+	margin-bottom: -1px;
+}
+#titlew{
+	font-size: 2.5em;
+	font-weight: 200;
+	text-align: left;
+	margin-top: -5px;
+}
+
 /*formats the nav bar*/
 nav {
 	background-color: white;
@@ -67,7 +86,7 @@ nav li {
 body .galleria-container {background-color: rgba(201,204,209,0.89)}
 
 
-
+/*links*/
 a:link {
 	text-decoration: none;
 	color: #4d525a;
@@ -82,21 +101,16 @@ a:visited{
 	color: #4d525a;
 }
 
-/*a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-	padding: 100px 100px;
-}*/
 /*clears float for the grids*/
 .bottomclear {
 	
 	clear: both;
 	padding-bottom: 20px;
 	margin-right: 40px;
+}
+
+.bottomclear img{
+	margin-top: 10px;
 }
 /*image alignment on vineyards page*/
 .grid_5 img {
@@ -111,6 +125,36 @@ a:visited{
 	margin-bottom: 30px;
 }
 
+.header{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/*margin fix*/
+.paragraphsup{
+	margin-top: -70px;
+}
+/*wine label*/
+.grid_3 img{
+	margin-left: 25px;
+}
+
+.extramargin{
+	margin-left: -10px;
+}
+
+.extramarginf{
+	margin-left: -90px;
+}
+
+.grid_3 p{
+	margin-top: -10px;
+}
+
+.grid_5 p{
+	margin-top: -10px;
+}
+
 /*begin css for fontawesome icons*/
 /*changes size and color of the div*/
 .socialmedia {
@@ -123,9 +167,20 @@ a:visited{
 
 .socialmedia img {
 	
-	float: left;
-	
-	
+	float: left;	
+}
+
+iframe{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+/*styling for horizontal line*/
+hr { 
+    display: block;
+    margin-top: -.5em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*adds padding, color and size to the icons*/
@@ -188,53 +243,4 @@ foot img{
 	float: left;
 }
 
-.foothome {
-	height: 60px;
-	font-size: .85em;
-	padding: 10px 5px;
-	display: block;
-	background-color: white;
-	float: left;
-}
-
-.phome {
-	color: #4d525a;
-	line-height: .8em;
-	padding-right: 15px;
-	margin-right: 15px;
-	text-align: right;
-}
-
 /*end css for footer*/
-/*background image fills entire page*/ 
-/*#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-}
-#bg img {
-  position: absolute; 
-  top: 150px; 
-  left: -25%; 
-  right: -25%; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-}*/
-
-/*
-html {
-background: url(../images/home_background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-*/
-
-
-
-/*https://www.stollerfamilyestate.com, see for ideas*/
